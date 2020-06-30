@@ -1,0 +1,59 @@
+@import "theme_variables";
+
+$font-size-base:          18px;
+$headings-font-family:    "Arvo", Helvetica, Arial, sans-serif;
+$navbar-height:           52px;
+
+* {
+    box-sizing: border-box;
+}
+
+nav.nav-collapsed, footer.home-footer {
+    font-size: $font-size-base;
+}
+
+.docked .d-header {
+    top: $navbar-height;
+}
+
+#main.ember-application {
+    margin-top: $navbar-height;
+    font-size: 16px;
+    
+    .d-header {
+        h1 {
+            font-family: $headings-font-family;
+            font-weight: normal;
+        }   
+    }
+    
+}
+
+
+#main-outlet {
+    .row {
+        display: block;
+    }
+}
+
+#banner {
+    background-color: $tertiary;
+    padding: 20px;
+    color: $secondary;
+    margin-bottom: 20px;
+    font-size: 1.1487em;
+    max-height: inherit;
+}
+
+#banner .close {
+    color: $secondary;
+}
+
+#banner a {
+    color: $secondary;
+    text-decoration: underline;
+}
+
+#banner a:hover {
+    color: $highlight;
+}

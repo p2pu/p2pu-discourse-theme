@@ -1,0 +1,32 @@
+{
+  "name": "community.p2pu.org",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "community-banner": "assets/community-banner.png",
+    "community-logo": "assets/community-logo.png",
+    "community-summary-logo": "assets/community-summary-logo.png"
+  },
+  "color_schemes": {
+    "P2PU Color Scheme": {
+      "primary": "515665",
+      "secondary": "ffffff",
+      "tertiary": "5f9ea0",
+      "quaternary": "707782",
+      "header_background": "515665",
+      "header_primary": "ffffff",
+      "highlight": "ffbc1a",
+      "danger": "ff7300",
+      "success": "b7d500",
+      "love": "fa6c8d"
+    }
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
