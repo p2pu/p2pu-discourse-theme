@@ -12,12 +12,8 @@ nav.nav-collapsed, footer.home-footer {
     font-size: $font-size-base;
 }
 
-.docked .d-header {
-    top: $navbar-height;
-}
 
 #main.ember-application {
-    margin-top: $navbar-height;
     font-size: 16px;
     
     .d-header {
